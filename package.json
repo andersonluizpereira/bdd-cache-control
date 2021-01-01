@@ -1,0 +1,28 @@
+{
+  "name": "bdd-cache-control",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --no-cache --watchAll",
+    "check": "npm-check -s -u"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/faker": "^5.1.5",
+    "@types/jest": "^26.0.3",
+    "@types/node": "^14.0.14",
+    "faker": "^5.1.0",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.1",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "npm-check": "^5.9.2"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
